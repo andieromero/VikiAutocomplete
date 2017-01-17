@@ -57,15 +57,17 @@ textarea, input, button { outline: none; }
     left: 14px;
     position: relative;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 a {
     text-decoration: none;
     color: #3C9CD7;
 }
-a:hover .item {
+a:hover li, a.hover li {
 	background-color: #ECF5FB;
 }
-.item {
+li{
 	position: relative;
     padding: 8px;
     border-bottom: 2px solid #EEEEEE;
@@ -78,6 +80,9 @@ a:hover .item {
 	left: 14px;
 }
 .item p {
-	display: block;
-	text-align: right;
+    display: block;
+    text-align: right;
+    max-width: 220px;
+    position: relative;
+    right: -110px;
 }
