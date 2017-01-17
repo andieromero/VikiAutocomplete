@@ -1,0 +1,31 @@
+{
+  "name": "vikiautocomplete",
+  "version": "1.0.0",
+  "description": "This is a webapp using viki v4's api to implement a simple autocomplete.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+    "engines": {
+    "node": "5.1.0",
+    "npm": "3.3.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrianabeltran/VikiAutocomplete.git"
+  },
+  "keywords": [
+    "autocomplete"
+  ],
+  "author": "Andriana Beltran Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrianabeltran/VikiAutocomplete/issues"
+  },
+  "homepage": "https://github.com/andrianabeltran/VikiAutocomplete#readme"
+}
